@@ -21,15 +21,15 @@ import csv
 #add_user= query_msg= users_info=0
 if not os.path.exists('./sessions'):
     os.mkdir('./sessions')
-if not os.path.exists(f"Users/5656382791/phone.csv"):
+if not os.path.exists(f"Users/5719367404/phone.csv"):
    os.mkdir('./Users')
-   os.mkdir(f'./Users/5656382791')
-   open(f"Users/5656382791/phone.csv","w")
+   os.mkdir(f'./Users/5719367404')
+   open(f"Users/5719367404/phone.csv","w")
 if not os.path.exists('data.csv'):
     open("data.csv","w")
 UPDATES_CHANNEL = "NOOBXCREATOR"
-OWNER= [5656382791]
-PREMIUM=[5656382791]
+OWNER= [5719367404]
+PREMIUM=[5719367404]
 app = pyrogram.Client("app", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 with open("data.csv", encoding='UTF-8') as f:
